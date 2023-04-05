@@ -3,6 +3,8 @@ Tensorflow implementation of the paper A Simple Yet Effective Baseline for 3D Hu
 
 The authors' own implementation can be found [here](https://github.com/una-dinosauria/3d-pose-baseline).
 
+<img src="./images/3d-pose-baseline-architecture.png" width="800px"></img>
+
 ## Citation
 
 ```bibtex
