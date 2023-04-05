@@ -1,6 +1,8 @@
 # 3d-pose-baseline
 Tensorflow implementation of the paper A Simple Yet Effective Baseline for 3D Human Pose Estimation.
 
+The authors' own implementation can be found [here](https://github.com/una-dinosauria/3d-pose-baseline).
+
 ## Citation
 
 ```bibtex
