@@ -37,12 +37,3 @@ class Model(keras.Model):
         
         x = layers.Dense(units = self.num_keypoints * 3)(x)
         return keras.Model(inputs = inputs, outputs = x)
-    
-if __name__ == "__main__":
-    model = Model(
-        num_blocks = 2, 
-        num_sub_blocks = 2, 
-        num_keypoints = 17, 
-        dense_units = 1024
-    )
-    model.network.summary()
