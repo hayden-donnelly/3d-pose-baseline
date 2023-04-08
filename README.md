@@ -8,7 +8,7 @@ The authors' own implementation can be found [here](https://github.com/una-dinos
 ## Setup
 
 1. Create a new directory title ``data`` at the root of the repository.
-2. Download the [Human3.6M dataset](www.cs.stanford.edu/people/ashesh/h3.6m.zip) and extract it into the ``data`` directory.
+2. Download the [Human3.6M dataset](http://www.cs.stanford.edu/people/ashesh/h3.6m.zip) and extract it into the ``data`` directory.
 
 ## Citations
 
