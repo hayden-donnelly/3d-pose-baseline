@@ -10,6 +10,30 @@ The authors' own implementation can be found [here](https://github.com/una-dinos
 1. Create a new directory title ``data`` at the root of the repository.
 2. Download the [Human3.6M dataset](http://www.cs.stanford.edu/people/ashesh/h3.6m.zip) and extract it into the ``data`` directory.
 
+## Docker Environment
+
+Building image:
+```
+docker-compose build
+```
+
+Starting container/environment:
+```
+docker-compose up -d
+```
+
+Opening a shell in container:
+```
+docker-compose exec 3d-pose-baseline bash
+```
+
+Instead of opening a shell, you can also go to http://localhost:8888/ to access a Jupyter Lab instance running inside the container.
+
+Stopping container/environment:
+```
+docker-compose down
+```
+
 ## Citations
 
 ```bibtex
